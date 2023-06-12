@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import handler from './api/urlShorten';
-import { map } from 'cheerio/lib/api/traversing';
-import { data } from 'autoprefixer';
 const HomePage = () => {
   const [url, setUrl] = useState('');
   const [shortUrl, setShortUrl] = useState('');
